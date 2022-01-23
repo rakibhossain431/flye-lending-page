@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.containe{
+    
+}
+.hero{
+    width: 100%;
+    height: 800px;
+    background-color:hsl(217, 28%, 15%);
+}
+.navbre-wraper{
+    display: flex;
+    position:sticky;
+
+}
+.log{
+   margin: 0;
+   /* width: 50%; */
+}
+.log img{
+    margin: 20px;
+    
+}
+.navber{
+    
+    margin-right: 0;
+    width: 50%;
+}
+.navber ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    margin-top: 20px;
+    
+}
+.navber ul li{
+   margin-right: 0; 
+    
+
+}
+.navber ul li a{
+    text-decoration: underline;
+    color: white;
+
+}
+
+.hero-wraper{
+    display: flex;
+    flex-direction: column;
+}
+.hero-text{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    text-align: center;
+    color: rgb(197, 186, 186);
+}
+.hero-text h3{
+    
+   margin-left: 480px;
+   margin-right: 480px; 
+   margin-top: 10px;
+   color: white;
+}
+.hero-text p{
+    margin-top: 5px;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+.text-wraper{
+    
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+/* section 2 */
+
+.book{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    background-color: hsl(217, 28%, 15%);
+    color: rgb(196, 184, 184);
+}
+.book-colum-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+.book-colum-1 i{
+    padding: 5px;
+}
+.book-colum-1 h5{
+    padding: 5px;
+    
+}
+.book-colum-1 p{
+    padding: 5px;
+
+}
+/* .book-colum-2{
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+} */
+/* section 3 */
+.templed{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    background-color:hsl(217, 28%, 15%) ;
+}
+.images-area{
+    width: 50%;
+    text-align: center;
+}
+.text-area{
+    padding-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: rgb(194, 182, 182);
+}
+.text-area h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text-area a{
+    margin-top: 10px;
+}
+/* section 4 */
+.colum-3-wraper{
+    width: 100%;
+    height: 300px;
+    background-color:hsl(217, 28%, 15%) ;
+    color: rgb(201, 190, 190);
+}
+.colum-3{
+    display: flex;
+}
+.details{
+    margin: 20px;
+    background-color: hsl(217, 26%, 23%);
+}
+.colum-3-text{
+    width: 100%;
+    
+}
+.colum-3-text p{
+    width: 75%;
+    margin: 15px;
+}
+.colum-3-images{
+    display: flex;
+    width: 100%
+    
+}
+.colum-3-images img{
+    max-width:50px;
+    border-radius: 50%;
+}
+.rakib{
+    width: 75%;
+}
+/* section 4 */
+.form {
+    text-align: center;
+    position: relative;
+    top: -120px;
+    width: 50%;
+  }
+  .form h2{
+    margin: 10px 0;
+    color: white;
+  }
+  .form p{
+    margin: 10px 0;
+    color: rgb(204, 191, 191);
+  }
+  
+  .form input {
+    width: 70%;
+    padding: 1.2em 2em;
+    box-sizing: border-box;
+    border-radius: 2em;
+    border: none;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  
+  .form input::-webkit-input-placeholder {
+    color: #cacaca;
+  }
+  
+  .form-grid  {
+    background: #1b2330;
+    padding: 2em;
+    border-radius: 2em;
+    margin: 0 -15px;
+  }
+  
+  .form-grid h2 {
+    margin: 0;
+  }
+.button{
+    padding: 10px 20px;
+    border-radius: 2em;
+    background-color: aquamarine;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    margin-top: -240px;
+    background-color: black;
+}
+.footer-wraper img{
+    margin-top: 120px;
+    max-width: 70px;
+    margin-left: 40px;
+}
+.footer-img{
+    
+     
+}
+
+.footer-text{
+    display: flex;
+    
+    color: white;
+}
+.foote-p{
+    width: 30%;
+    margin: 40px;
+    color: rgb(223, 213, 213);
+    
+}
+.contrat{
+    width: 20%;
+    margin: 40px;
+    
+}
+.list{
+    width: 15%;
+    margin: 40px;
+    
+    
+}
+.list ul{
+    list-style: none;
+}
+.list ul li{
+    padding: 5px 0
+   
+    
+}
+.list ul li a{
+    text-decoration: none;
+    color: rgb(214, 205, 205);
+    padding: 5px 0;
+}
+.list-2{
+    width: 15%;
+    margin-top: 40px;     
+}
+.list-2 ul{
+    list-style: none;
+}
+.list-2 ul li{
+    padding: 5px 0;
+}
+.list-2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 0;
+}
+.social{
+    margin: 40px;
+    width: 20%;
+    
+}
+.social a{
+    padding: 0 5px;
+
+}
+
+
+/* responsive */
+
+@media screen and (max-width:350px){
+    .hero-text{
+        max-width:300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
